@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 from plot_utils import multiple_formatter
 
-in_array = np.linspace(-np.pi*3, np.pi*3, 120)
+in_array = np.linspace(-np.pi*3, np.pi*3, 12)
 out_array = np.cos(in_array)
 
 print("in_array : ", in_array)
